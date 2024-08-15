@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Series</title>
+    <style>
+        body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	}
+
+        header {
+            background-color: #4a4a4a;
+	    background-image: url('title.png');
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+            padding: 70px;
+            text-align: center;
+        }
+	h3{
+	   text-align: center;
+	   font-family: 'Papyrus', fantasy;
+	}
+	h2{
+	   text-align: center;
+           font-family: 'Papyrus';
+	   color: #E0FF09;
+	}
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Blippo';
+
+        }
+        nav a:hover {
+            background-color: black;
+        }
+	
+        .container {
+            padding: 20px;
+        }
+        .book-summary {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+	.Book-summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.book-summary {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.book-summary img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+a{
+	color : black;
+	text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+      
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#books">Books</a>
+        <a href="characters.html">Characters</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <section id="books">
+		
+                <h2>BOOKS</h2>
+            
+
+	<div class="Book-summary">
+            <div class="book-summary"> 
+                <h3>Harry Potter and the Sorcerer's Stone</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
+                <img src="book1.jpeg" alt="Book-1" width="100">
+		</a>
+            </div>
+            <div class="book-summary">
+                <h3>Harry Potter and the Chamber of Secrets</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Chamber-Secrets/dp/1408855666" >
+		<img src="book2.jpg" alt="Book-2" width="100">
+		</a>
+            </div>
+	</div>
+	<div class="Book-summary">
+            <div class="book-summary">
+                <h3>Harry Potter and the Prisoner of Azkaban</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Prisoner-Azkaban/dp/1408855674" >
+		<img src="book3.jpeg" alt="Book-3" width="100">
+		</a>
+                            </div>
+            <div class="book-summary">
+                <h3>Harry Potter and the Goblet of Fire</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Goblet-Fire/dp/1408855682" >
+		<img src="book4.png" alt="Book-4" width="100">
+		</a>
+            </div>
+	</div>
+	<div class="Book-summary">
+            <div class="book-summary">
+                <h3>Harry Potter and the Order of the Phoenix</h3>
+		<a href="https://www.amazon.in/HARRY-POTTER-ORDER-PHOENIX-5/dp/1408855690" >
+		<img src="book5.jpg" alt="Book-5" width="100">
+		</a>
+            </div>
+            <div class="book-summary">
+                <h3>Harry Potter and the Half-Blood Prince</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Half-Blood-Prince/dp/1408855704" >
+		<img src="book6.jpg" alt="Book-6" width="100">
+		</a>
+            </div>
+	</div>
+	<div class="Book-summary">
+            <div class="book-summary">
+                <h3>Harry Potter and the Deathly Hallows</h3>
+		<a href="https://www.amazon.in/Harry-Potter-Deathly-Hallows/dp/1408855712" >
+		<img src="book7.webp" alt="Book-7" width="100">
+		</a>
+            </div>
+	</div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024</p>
+    </footer>
+</body>
+</html>
